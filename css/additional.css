@@ -7,19 +7,26 @@
 	background:#039C65;
 	text-align: center;
 	color:white;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 #row3 {
 	background:#FF843F;
 	text-align: center;
 	color:white;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
+
 
 #row2 {
 	background:#fff;
 	text-align: center;
 	color:black;
 	background: url(../img/banner-02.png) no-repeat 50% top;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 #row4 {
@@ -27,12 +34,16 @@
 	text-align: center;
 	color:black;
 	background: url(../img/banner-03.png) no-repeat 50% top;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 #row5 {
 	background:#473FFF;
 	text-align: center;
 	color:white;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 
@@ -40,27 +51,30 @@
 	background:#333;
 	text-align: center;
 	color:white;
+	padding-bottom: 2em;
+	padding-top:2em;
 }
 
 .inner{
-	padding:2em;
+	padding:1em;
 
 }
 
 .inner * {
-	margin-bottom: 1em
+	
 }
 
 h4{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
-	font-size:2em;
+	font-size:1.8em;
+	line-height:1em;
 }
 
 h3{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
-	font-size:2.5em;
+	font-size:2em;
 }
 
 p{
@@ -76,4 +90,16 @@ p{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#nusnetid{
+	padding:10px 10px 10px;
+	margin-bottom:0px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.form-join{
+	margin-top: 2em;
 }
