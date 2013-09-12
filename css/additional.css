@@ -11,6 +11,26 @@
 	padding-top:2em;
 }
 
+#row1-mobile {
+	background:#039C65;
+	text-align: left;
+	color:white;
+	padding-bottom: 2em;
+	padding-top:2em;
+}
+
+#row1-mobile span {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 2em;	
+	font-weight: 100;
+}
+
+#row1-mobile .container .row .inner a {
+	width:100%; 
+	text-align:left;
+}
+
+
 #row3 {
 	background:#FF843F;
 	text-align: center;
@@ -65,20 +85,20 @@
 }
 
 h4{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 100;
 	font-size:1.8em;
 	line-height:1em;
 }
 
 h3{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 100;
 	font-size:2em;
 }
 
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 0.9em;
 }
 
@@ -103,3 +123,4 @@ p{
 .form-join{
 	margin-top: 2em;
 }
+
