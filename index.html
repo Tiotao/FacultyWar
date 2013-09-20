@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FacultyWar @ NUS</title>
+  <title>CampusWar @ NUS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -15,69 +15,64 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
-
+  <!-- Header-->
   <div class="row">
-    <div id="header"/>
+    <div class="container">
+      <div class="span12">
+        <div id="header">
+          <div class="alert alert-block" style="margin-top:1em">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Welcome Soilder!</h4>
+            <p>It's time to fight! Are you ready for the war between faculties?</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <!-- Row1 Desktop-->
   <div class="hidden-phone">
-
     <div class="row" id="row1">
       <div class="container">
         <div class="span12">
           <div class="row">
             <div class="span4">
               <div class="inner">
-                <div class="row">
-                  <h4>Checkin at Lectures</h4>
-                </div>
-
-
+                <h4>Checkin at School</h4>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <div class="row">
-                  <h4>Conquer LTs</h4>
-                </div>
-
-
+                <h4>Conquer other Faculties</h4>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <div class="row">
-                  <h4>Millions of Missions</h4>
-                </div>
-
-
+                <h4>Complete Missions</h4>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="span4"><div class="inner" style="margin-left:-2em;"> <i class="icon-foursquare icon-4x"></i></div></div>
-            <div class="span4"><div class="inner" style="margin-left:-2em;"><i class="icon-rocket icon-4x"></i></div></div>
-            <div class="span4"><div class="inner" style="margin-left:-2em;"><i class="icon-flag icon-4x"></i></div></div>
-
-
+            <div class="span4"><div class="inner"> <i class="icon-foursquare icon-4x"></i></div></div>
+            <div class="span4"><div class="inner"><i class="icon-rocket icon-4x"></i></div></div>
+            <div class="span4"><div class="inner"><i class="icon-flag icon-4x"></i></div></div>
           </div>
-
           <div class="row">
             <div class="span4">
               <div class="inner">
-                <p>Indian soldiers look on from a military vehicle following communal riots between Muslims and Hindus in Muzaffarnagar ...
+                <p>You can get extra credits through checking in at the campus! Check-in according to your timetable will gets you extra credits!
                 </p>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <p>Pakistani paramilitary soldiers and rescuers stand in front of casualties as they examine a bomb blast site in ...
+                <p>All check-ins contribute to the overall faculty credits. Faculty with lower credits may be conquered by other faculties!
                 </p>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <p>A Chilean man is arrested by riot policemen during a demonstration in Santiago, in remembrance of late President ...
+                <p>You are also free to complete any real-life mission to exchange for extra credits. Look for our logo around the campus!
                 </p>
               </div>
             </div>
@@ -85,22 +80,21 @@
           <div class="row">
             <div class="span4">
               <div class="inner">
-                <a class="button is-primary">Learn More</a>
+                <a href="#row3" class="button is-primary">Learn More</a>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <a class="button is-primary">Learn More</a>
+                <a href="#row4" class="button is-primary">Learn More</a>
               </div>
             </div>
             <div class="span4">
               <div class="inner">
-                <a class="button is-primary">Learn More</a>
+                <a href="#row5" class="button is-primary">Learn More</a>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -108,29 +102,32 @@
   <div class="visible-phone">
     <div class="row" id="row1-mobile">
       <div class="container">
-        
         <div class="row">
-        <div class="inner">
-            <a class="button is-primary"><i class="icon-fixed-width icon-foursquare icon-2x"></i><span>Checkin at Lectures</span></a>
-        </div>
-        </div>
-        <div class="row">
-        <div class="inner">
-            <a class="button is-primary"><i class="icon-fixed-width icon-rocket icon-2x"></i><span>Conquer LTs</span></a>
-        </div>
+          <div class="inner">
+            <a class="button is-primary" data-toggle="collapse" data-target="#item1"><i class="icon-fixed-width icon-foursquare icon-2x"></i><span>Checkin at School</span></a>
+            <div id="item1" class="collapse"> <div class="inner"><p>You can get extra credits through checking in at the campus! Check-in according to your timetable will gets you extra credits!&nbsp;&nbsp;<a href = "#row3" style="color:white; text-decoration:none;">[Learn More]</a></p></div>
+            </div>
+          </div>
         </div>
         <div class="row">
-        <div class="inner">
-            <a class="button is-primary"><i class="icon-fixed-width icon-flag icon-2x"></i><span>Millions of Missions</span></a>
+          <div class="inner">
+            <a class="button is-primary" data-toggle="collapse" data-target="#item2"><i class="icon-fixed-width icon-rocket icon-2x"></i><span>Conquer other Faculties</span></a>
+            <div id="item2" class="collapse"> <div class="inner"><p>All check-ins contribute to the overall faculty credits. Faculty with lower credits may be conquered by other faculties!&nbsp;&nbsp;<a href = "#row4" style="color:white; text-decoration:none;">[Learn More]</a></p></div>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="inner">
+            <a class="button is-primary" data-toggle="collapse" data-target="#item3"><i class="icon-fixed-width icon-flag icon-2x"></i><span>Complete Missions</span></a>
+            <div id="item3" class="collapse"> <div class="inner"><p>You are also free to complete any real-life mission to exchange for extra credits. Look for our logo around the campus!&nbsp;&nbsp;<a href = "#row5" style="color:white; text-decoration:none;">[Learn More]</a></p></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Row2 -->
-
-
   <div class="row" id="row2">
     <div class="container">
       <div class="span12">
@@ -139,112 +136,187 @@
           </div>
           <div class="span8">
             <div class="inner">
-              <h4>Why don't you go to School?</h4>
+              <!-- Row2 Desktop-->
               <div class="hidden-phone">
-                <p>
-                  Under the change, the engine power of Cat A cars should not exceed 97 kilowatts (kW). This is equivalent to about 130 brake horsepower.</p>
-                  <p>This was announced by Transport Minister Lui Tuck Yew on Monday morning.</p>
-                  <p>
-                    The Land Transport Authority (LTA) said engine capacity of cars under Cat A which should not exceed 1600 cubic centimetres will be retained.
-                  </p>
-                  <p>
-                    Cars with engine power output exceeding 97kW will be classified under Category B in COE bidding exercises starting February 2014.
-                  </p>
-                </div>
+                <h4>Why don't you go to School?</h4>
+                <p>The War has begun! Our campus has been divided into many different countries, such as Empire of Arts and Social Science, Republic of Computing and Business Kingdom, etc.As the citizen of one of the countries, you have fight for your nation! Come on! Wake up and go to school! You can save your country through completing missions, checking in at different places around the campus and exploring new areas in the campus! </p>
+                <p>Come and leave your NUSNET ID below and be the next hero!</p>
                 <form class="form-join">
-                  <input id="nusnetid" type="text" placeholder="Trail with your NUSNETID">
-                  <a class="button">Sign up</a>
+                  <input id="nusnetid" type="text" placeholder="Try with your NUSNETID">
+                  <button class="button" type="button" id="signup_button">Sign up</button>
                 </form>
-
-
+              </div>
+              <!-- Row2 Form-->
+              <div class="visible-phone" style="text-align:left">
+                <h4>Why don't you go to School?</h4>
+                <p>
+                  The War has begun! Come and leave your NUSNET ID below and be the next hero!</p>
+                <form class="form-join">
+                  <input id="nusnetid_m" type="text" placeholder="Try with your NUSNETID">
+                  <button class="button" type="button" id="signup_button_m">Sign up</button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Row3 -->
-    <div class="row" id="row3">
-      <div class="container">
+  <!-- Row3 -->
+  <div class="row" id="row3">
+    <div class="container">
+      <div class="span12">
+        <div class="inner">
+          <!-- Row3 Desktop -->
+          <div class="hidden-phone">
+            <div class="row">
+              <h4>More Checkins, more CORS Points.</h4>
+              <p>You do get reward for being a good soilder!</p>
+              <p>Top scoring soilders will be rewared with CORS bidding points! It means that the more attending the lecture and checking in at the Lecture Theatre, the more CORS bidding points you will be awarded at the end of semester!</p>
+            </div>
+            <div class="row">
+              <h4 style="color:#FFBE8B">
+                <i id="checkin" class="icon-map-marker icon-4x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i id="loading-1" class="icon-angle-right icon-2x" style="vertical-align:super;"></i><i id="loading-2" class="icon-angle-right icon-2x" style="vertical-align:super;"></i><i id="loading-3" class="icon-angle-right icon-2x" style="vertical-align:super;"></i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i id="cors" class="icon-money icon-4x"></i>
+              </h4>
+            </div>
+          </div>
+          <!-- Row3 Mobile-->
+          <div class="visible-phone" style="text-align:left">
+            <h4>More Checkins, more CORS Points.</h4>
+            <p>Top scoring soilders will be rewared with CORS bidding points!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row4 -->
+  <div class="row" id="row4">
+    <div class="container">
+      <div class="span12">
+        <div class="row">
+          <div class="span5">
+            <div class="inner">
+              <!-- Row4 Desktop-->  
+              <div class="hidden-phone">
+                <h4>Conquer LT19!</h4>
+                <p>As a soilder from Republic of Compuing, are you okay with people calling our canteen as Biz Canteen? Are you confortable with saying the phrase Biz LT19?</p>
+                <p>Of course you are not! What can you do then? Check-in at the canteen and the lecture theatre! They will be soon in our hands if we manage to get enough number of check-ins!</p>
+              </div>
+              <!-- Row4 Mobile-->  
+              <div class="visible-phone" style="text-align:left">
+                <h4>Conquer LT19!</h4>
+                <p>Check-in at canteens and lecture theatres! They will be soon in our hands if we manage to get enough number of check-ins!</p>
+              </div>
+            </div>
+          </div>
+          <div class="span7">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row5 -->
+  <div class="row" id="row5">
+    <div class="container">
+      <div class="span12">
         <div class="row">
           <div class="inner">
-
-            <h4>More Checkins, more CORS Points.</h4>
+            <!-- Row5 Desktop -->
             <div class="hidden-phone">
-              <p>
-                Under the change, the engine power of Cat A cars should not exceed 97 kilowatts (kW). This is equivalent to about 130 brake horsepower.</p>
-                <p>This was announced by Transport Minister Lui Tuck Yew on Monday morning.</p>
-                <p>
-                  The Land Transport Authority (LTA) said engine capacity of cars under Cat A which should not exceed 1600 cubic centimetres will be retained.
-                </p>
-                <p>
-                  Cars with engine power output exceeding 97kW will be classified under Category B in COE bidding exercises starting February 2014.
-                </p>
-              </div>
+              <h4>Who can get me a cup of coffee?</h4>
+              <p>There are two types of mission. One is general missions and the other is personal missions. You can get extra credits by completing general missions such as visiting the library. You may also be rewarded by completing your friends' personal missions. You will post their missions such as 'get me a cup of coffee' with some credits as reward. Go secure them by visiting the mission centre! </p>
+              <h4><i class="icon-coffee icon-4x" style="color:#575DEC"></i></h4>
+            </div>
+            <div class="visible-phone" style="text-align:left">
+              <h4>Who can get me a cup of coffee?</h4>
+              <p>here are two types of mission. One is general missions and the other is personal missions. Go secure them by visiting the mission centre!</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="row" id="row4">
-        <div class="container">
-          <div class="span12">
-            <div class="row">
-
-              <div class="span5">
-                <div class="inner">
-                  <h4>Who gets LT19?</h4>
-                  <div class="hidden-phone">
-                    <p>
-                      Under the change, the engine power of Cat A cars should not exceed 97 kilowatts (kW). This is equivalent to about 130 brake horsepower.</p>
-                      <p>This was announced by Transport Minister Lui Tuck Yew on Monday morning.</p>
-                      <p>
-                        The Land Transport Authority (LTA) said engine capacity of cars under Cat A which should not exceed 1600 cubic centimetres will be retained.
-                      </p>
-                      <p>
-                        Cars with engine power output exceeding 97kW will be classified under Category B in COE bidding exercises starting February 2014.
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="span7">
-                </div>
-              </div>
+  <!-- Row7 -->
+    <div class="row" id="row7">
+      <div class="container">
+        <div class="span12">
+          <div class="row">
+            <div class="inner">
+              <p>(c) 2012-2013 CampusWar. All rights reserved.</p>
             </div>
           </div>
         </div>
-
-        <div class="row" id="row5">
-          <div class="container">
-            <div class="row">
-              <div class="inner">
-                <h4>Who can get me a cup of coffee?</h4>
-                <div class="hidden-phone">
-                  <p>
-                    Under the change, the engine power of Cat A cars should not exceed 97 kilowatts (kW). This is equivalent to about 130 brake horsepower.</p>
-                    <img id="worldmap" align="middle" src="img/map.png"/>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row7 -->
-          <div class="row" id="row7">
-            <div class="container">
-              <div class="row">
-                <div class="inner">
-                  <p>(c) 2009-2013 YIWEN, Inc. All rights reserved.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      </div>
+    </div>
 
 
 
-          <script src="http://code.jquery.com/jquery.js"></script>
-          <script src="js/bootstrap.min.js"></script>
-        </body>
-        </html>
+  <script src="js/jquery-1.8.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    //form validation
+    var is_valid = function(id){
+      function isNumber(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
+      }
+      function isLetter(a) {
+        return a.length === 1 && a.match(/[a-z]/i);
+      }
+      if(id.length != 8){
+        return false;
+      }
+      if (!isLetter(id[0])){
+        return false;
+      }
+      for (var i=1;i<8;i++){
+        if(!isNumber(id[i])){
+          return false;
+        }
+      }
+      return true;
+    }
+
+    $(document).ready(function()
+    {
+      $("#signup_button").click(function () {
+        var nusnetid = $("#nusnetid").val()
+        if(!is_valid(nusnetid)){
+          alert("Please fill in correct NUSNETID");
+        }else{
+          $( "form.form-join" ).html('<h4>Welcome '+nusnetid+'!</h4>');
+        }
+      });
+
+      $("#signup_button_m").click(function () {
+        var nusnetid = $("#nusnetid_m").val()
+        if(!is_valid(nusnetid)){
+          alert("Please fill in correct NUSNETID");
+        }else{
+          $( "form.form-join" ).fadeIn("slow").html('<h4>Welcome '+nusnetid+'!</h4>');
+        }
+
+      });
+
+      //animation
+      function Begin()
+      {
+        $("#loading-1").animate({opacity: 0.25}, 200);
+        $("#loading-2").animate({opacity: 0.25}, 200).delay(200);
+        $("#loading-3").animate({opacity: 0.25}, 200).delay(400);
+        $("#loading-1").animate({opacity: 1}, 200);
+        $("#loading-2").animate({opacity: 1}, 200);
+        $("#loading-3").animate({opacity: 1}, 200);
+      }
+      setInterval(Begin,1200);
+    });
+
+
+  </script>
+</body>
+</html>

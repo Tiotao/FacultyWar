@@ -1,4 +1,4 @@
-#FacultyWar
+#CampusWar
 Webpage for a location based game written in HTML, CSS and Javascript
 
 ## What's it for?
@@ -14,3 +14,6 @@ External Libraries include:
 ## Modifications
 * color of primary button in Kanso is modified in `buttons.css`
 * additional css is filed under `additional.css`
+
+## More infos
+Checkout the ProjectDescription.pdf

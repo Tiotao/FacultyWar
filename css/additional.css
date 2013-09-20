@@ -1,6 +1,7 @@
 #header {
 	height: 540px;
-	background: url(../img/banner-01.png) no-repeat 50% top;
+	background: url(../img/banner-01.png) no-repeat 50% bottom;
+
 }
 
 #row1 {
@@ -84,17 +85,26 @@
 	
 }
 
+.row-graph{
+	text-align:center;
+	height:60px;
+	line-height:60px;
+}
+
 h4{
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 100;
 	font-size:1.8em;
 	line-height:1em;
+	margin-bottom:1em;
 }
+
 
 h3{
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 100;
 	font-size:2em;
+	margin-bottom:1em;
 }
 
 p{
@@ -112,7 +122,18 @@ p{
     margin-right: auto;
 }
 
+
+
 #nusnetid{
+	padding:10px 10px 10px;
+	margin-bottom:0px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+
+#nusnetid_m{
 	padding:10px 10px 10px;
 	margin-bottom:0px;
 	-webkit-border-radius: 2px;
@@ -122,5 +143,6 @@ p{
 
 .form-join{
 	margin-top: 2em;
+	height:42px;
 }
 
