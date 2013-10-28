@@ -2,7 +2,7 @@
 Webpage for a location based game written in HTML, CSS and Javascript
 
 ## What's it for?
-It's an lab assignment for my CS3420 Interaction Design Course in National University of Singapore. 
+It's a lab assignment for my CS3420 Interaction Design Course in National University of Singapore. 
 
 ## External Libraries
 External Libraries include:
